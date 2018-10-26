@@ -4,8 +4,24 @@ $main-color:#00070A;
 
 * {
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
 .main_title {
   color: $primary-color;
+
+}
+
+.main_container {
+  margin: 0 auto;
+  width: 80%;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.sec_tion {
+  background: $secondary-color;
 }
