@@ -1,20 +1,35 @@
 * {
   font-family: 'Roboto', sans-serif;
-  text-align: center; }
+  text-align: center;
+}
 
 .main_title {
-  color: #00A6FF; }
+  color: #00A6FF;
+}
 
 .main_container {
   margin: 0 auto;
   width: 80%;
   height: 90vh;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 20px; }
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+}
 
 .sec_tion {
-  border: 2px solid #001724; }
+  border: 2px solid #001724;
+}
+
+#apply {
+  grid-column: 1/3;
+  grid-row: 1/4;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
 
 /*# sourceMappingURL=main.css.map */
