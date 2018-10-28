@@ -29,4 +29,7 @@ button {
   vertical-align: middle;
   outline: none; }
 
+li {
+  list-style-type: none; }
+
 /*# sourceMappingURL=main.css.map */
