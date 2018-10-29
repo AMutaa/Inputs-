@@ -29,7 +29,7 @@
         <textarea name="comment" id=""></textarea>
       </div>
     </div>
-    <div class="engineers">
+    <div id="engineers">
 
     </div>
   </div>
@@ -67,7 +67,7 @@
     padding: 0 10px;
   }
 
-  .engineers {
+  #engineers {
     border: 2px solid #6200ee;
   }
 
@@ -118,6 +118,12 @@
     const engineers1 = engineers.filter(item => item.toLowerCase().includes(e.target.value.toLowerCase()))
     console.log(engineers1);
 
+    engineers1.forEach((person => {
+      const eng = document.createElement('h1')
+      const MyList = document.getElementById('engineers')
+      eng.textContent = person
+      MyList.appendChild(eng);
+    }))
   })
 </script>
 
